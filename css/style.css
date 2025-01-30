@@ -1,0 +1,46 @@
+@import "./contato.css";
+@import "./cores.css";
+@import "./cssReset.css";
+@import "./footer.css";
+@import "./header.css";
+@import "./inicio.css";
+@import "./meusProjetos.css";
+@import "./menuMobile.css";
+@import "./modalTecnologias.css";
+
+.minhasFormacoes {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.minhasFormacoes-Titulo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.minhasFormacoes-Lista {
+    list-style: none;
+    padding: 0;
+}
+
+.minhasFormacoes-Item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.formacao-Ano {
+    font-weight: bold;
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.formacao-Descricao {
+    font-size: 18px;
+}
+
